@@ -41,7 +41,7 @@ public static void main(String[] args)
 	Music music=new Music();
 	Call call=new Call();
 	
-	Stimulator.do_something(video);
+	Stimulator.do_something(video); 
 	Stimulator.do_something(call);
 	Stimulator.do_something(music);
 }
