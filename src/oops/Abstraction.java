@@ -1,5 +1,7 @@
 package oops;
-
+/* Definition - Hiding the complexity of the system and exposing only the
+ *  required functionality to the end user is called as abstraction.
+ * */
 interface Transport
 {
 	void travel();
@@ -27,7 +29,8 @@ interface Transport
 	}
     class Passenger
     {
-		static void Via(Transport t1)
+		static void Via(Transport t1)  //create a reference variable for interface
+	//	and provide the implementation in the subclass
 		{
 			t1.travel();
     }
@@ -40,7 +43,7 @@ class Abstraction
 	  Bus B1=new Bus();
 	  Car C1=new Car();
 	  
-	  Passenger.Via(M1);
+	  Passenger.Via(M1);   //
 	  Passenger.Via(B1);
 	  Passenger.Via(C1);
 	}
