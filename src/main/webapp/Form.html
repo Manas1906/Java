@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:thistle;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #input{
+            height: 30px;
+            width: 230px;
+            border-radius: 10px;
+            border-color: white;
+        }
+       fieldset{
+        box-shadow: 1px 5px 12px 8px;
+       }
+        h2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 2px 5px 8px 1px;
+        }
+        #date{
+            height: 30px;
+            width: 230px;
+            border-radius: 10px;
+            border-color: white; 
+        }
+    </style>
+</head>
+<body>
+    
+    <fieldset> 
+        <h2>Enter your details :</h2>
+            <form action="signup">
+                <table>
+             <tr>
+                <th>Name :</th>
+                <th><input type="text" name="name" id="input" placeholder="Enter your name"></th>
+              </tr>
+              
+              <tr>
+                <th>Mobile no :</th>
+                <th><input type="text" name="mob" id="input" placeholder="Enter your number"></th>
+              </tr>
+              
+              <tr>
+                <th>Email id :</th>
+                <th><input type="text" name="email" id="input" placeholder="Enter your Email"></th>
+              </tr>
+              
+              <tr>
+                <th>Password :</th>
+                <th><input type="password" name="password" id="input" placeholder="Enter your Password"></th>
+              </tr>
+              
+              <tr>
+                <th>Date of birth :</th>
+                <th><input type="date" name="dob" id="date"></th>
+              </tr>
+              
+              <tr>
+                <th>Gender :</th>
+                <th><input type="radio" name="gen" id="male" value="MALE">Male
+                <input type="radio" name="gen" id="female" value="FEMALE">Female</th>
+              </tr>
+              
+              <tr>
+                <th>Address :</th>
+                <th><textarea name="adress" id="" cols="30" rows="3"></textarea></th>
+              </tr>
+              
+              <tr>
+              <th><label for="country">Country :</label>   
+              <th><select name="country" id="">
+                <option value="India" >India</option>
+                <option value="USA">USA</option>
+                <option value="China">China</option></th>
+              </select>
+            </th>
+              </tr>
+              
+              <tr>
+                <th>Skills :</th>
+                <th><input type="checkbox" name="skills" id="" value="Team Player">Team player
+               <input type="checkbox" name="skills" id="" value="Good Learner">Good Learner
+                <input type="checkbox" name="skills" id="" value="Leadership">LeaderShip</th>
+           </tr>
+              
+              <tr>
+                <th><button type="submit">Submit</button></th>
+              </tr>
+              
+              <tr>
+               <th> <button type="reset">Cancel</button></th>
+              </tr>
+              
+            </table>
+          </form>
+        </fieldset>
+        </body>
+        </html>

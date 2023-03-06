@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Enter Your Details</h1>
+	<form action="signup" method="post">
+		<table>
+			<tr>
+				<th>Name</th>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<th>Mobile</th>
+			<td><input type="tel" name="mob" pattern="[0-9]{10}"></td>
+			</tr>
+
+			<th>Email</th>
+			<td><input type="email" name="email" required="required"></td>
+			</tr>
+
+			<th>Password</th>
+			<td><input type="password" name="pwd"></td>
+			</tr>
+
+			<th>date of birth</th>
+			<td><input type="date" name="dob"></td>
+			</tr>
+
+			<th>Gender:</th>
+			<td><input type="radio" value="male" name="gender">Male <input
+				type="radio" value="female" name="gender">Female</td>
+			</tr>
+
+			<th>Address:</th>
+			<td><textarea rows="5" cols="30" name=adress></textarea></td>
+			</tr>
+
+			<th>Country:</th>
+			<select name="country">
+				<option>India
+				<option>
+				<option>US
+				<option>
+				<option>Russia
+				<option>
+			</select>
+			</tr>
+
+			<th>Skills</th>
+			<td><input type="checkbox" name="skills">Leadership <input
+				type="checkbox" name="skills">Team Player <input
+				type="checkbox" name="skills">Quick Learner
+			</tr>
+			<tr>
+				<td>
+					<button>Submit</button>
+				</td>
+				<td>
+					<button>Cancel</button>
+				</td>
+		</table>
+	</form>
+</body>
+</html>
