@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class Demo5
+{
+	static double area(int r)
+	{
+		double pi=3.142;
+		double a=r*r*pi;
+		return a;
+}
+
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the number");
+		int r=sc.nextInt();
+		area(r);
+
+		System.out.println(area(r));
+	}
+}

@@ -1,0 +1,30 @@
+class Bank
+{
+void account()
+{
+	System.out.println("create account");
+}
+}
+class Manager
+{
+	public static void main(String[] args)
+	{
+		Bank B1=new Bank();
+		user1.needaccount(B1);
+		user2.needaccount(B1);
+	}
+}
+class user1
+{
+static void needaccount(Bank B2)
+	{
+	B2.account();
+	}
+}
+	class user2
+	{
+    static void needaccount(Bank B3)
+		{
+		B3.account();
+		}
+	}

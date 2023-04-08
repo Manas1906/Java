@@ -1,0 +1,12 @@
+class Demo_Boolean
+{
+	public static void main(String[] args) 
+	{
+		boolean[] aa = {true,false,true};
+		for (int i=0;i<aa.length;i++)
+		{
+			System.out.println(aa[i]);
+		}
+		
+	}
+}

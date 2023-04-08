@@ -1,0 +1,29 @@
+class Tester1
+{
+	int x=10;
+	void disp(){
+		System.out.println("disp.....");
+	}
+}
+
+class Huliyacha extends Tester1
+{
+	void ho(){
+		System.out.println("Ho.....);
+	}
+}
+
+
+class Mainclass7 
+{
+	public static void main(String[] args) 
+	{
+		Tester1 t =new Huliyacha();
+		t.disp();
+		System.out.println(t.x);
+		Huliyacha h =(Huliyacha) t ;
+		h.ho();
+		h.disp();
+		System.out.println(h.x);
+	}
+}

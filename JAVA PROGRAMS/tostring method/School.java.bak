@@ -1,0 +1,21 @@
+class School
+{
+	String scl_name;
+	String scl_grade;
+	int scl_strength;
+	School(String scl_name,String scl_grade,int scl_strength)
+	{
+		this.scl_name=scl_name;
+		this.scl_grade=scl_grade;
+		this.scl_strength=scl_strength;
+	}
+	public String toString()
+	{
+		return"School name is "+this.scl_name+"School grade is "+this.scl_grade.+"and the strength of school is "+this.scl_strength;
+	}
+	public static void main(String[] args) 
+	{
+		School S1=new School("St. Josephs ","A++ ",1567);
+		System.out.println(S1.toString());
+	}
+}

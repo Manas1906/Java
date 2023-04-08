@@ -1,0 +1,25 @@
+abstract class Sample2
+{
+	abstract void cool();
+	abstract void test();
+}
+abstract class Tester2 extends Sample2
+{
+	void test()
+	{
+		System.out.println("hello");
+	}
+}
+class Demo2 extends Tester2
+{
+	void cool()
+	{
+		System.out.println("Hi");
+	}
+	public static void main(String[] args) 
+	{
+		Demo2 d2=new Demo2();
+		d2.cool();
+		d2.test();
+	}
+}

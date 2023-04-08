@@ -1,0 +1,15 @@
+class Parallelogram
+{
+static void area(int h,int b)
+	{
+	 int res = h*b;
+		System.out.println(res);
+}
+}
+class Sample9
+{
+	public static void main(String[] args)
+	{
+		Parallelogram.area(5,6);
+}
+}
