@@ -1,0 +1,14 @@
+class Square
+{
+	void area()
+	{
+	int a=5;
+    int result=r*r;
+System.out.println(result);
+return;
+}
+public static void main(String[] args)
+{
+	new Square().area();
+}
+}

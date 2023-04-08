@@ -1,0 +1,30 @@
+class Mainclass4
+{
+	public static void main(String[] args)
+	{
+		System.out.println("Welcome to Flipkart");
+	    Flipkart.order(558554);
+		  Flipkart.order( "Good Morning!");
+		    Flipkart.order(333,"Lucky no");
+			  Flipkart.order( "Thanks for ordering",558554);
+	}
+}
+class Flipkart
+{
+	static void order(int qty)
+	{
+		System.out.println("order quantity "+qty);
+	}
+    static void order(String type)
+	{
+     System.out.println("creating order "+type);
+	}
+    static void order(int qty,String type)
+	{
+     System.out.println("creating order "+qty+" "+type);
+	}
+    static void order(String type,int qty)
+		{
+		System.out.println("creating order & order quantity "+type+" "+qty);
+		}
+}

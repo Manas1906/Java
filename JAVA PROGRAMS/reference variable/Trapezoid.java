@@ -1,0 +1,18 @@
+class Trapezoid
+{
+	void area()
+	{
+		int a=8;
+		int b=9;
+		int h=10;
+		final double pi=3.142;
+		double res=pi*(a+b)*h;
+		System.out.println(res);
+		return;
+	}
+	public static void main(String[] args)
+	{
+	 Trapezoid T1=new Trapezoid();
+		T1.area();
+	}
+}

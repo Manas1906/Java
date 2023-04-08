@@ -1,0 +1,15 @@
+class Ellipse
+{
+static void area(int a,int b,double pi)
+	{
+	 double res = pi*a*b;
+		System.out.println(res);
+}
+}
+class Sample12
+{
+	public static void main(String[] args)
+	{
+		Ellipse.area(10,20,3.142);
+}
+}

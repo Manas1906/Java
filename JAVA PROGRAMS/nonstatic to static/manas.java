@@ -1,0 +1,19 @@
+class manas 
+{
+ static void add(int a)
+ {
+ for (int i=a;i<=a;i++)
+ {
+  for(int j=1;j<=10;j++)
+  {
+     int product=j*i;
+    System.out.println(i+"*"+j+"="+product);
+   }
+   }
+ }
+
+ public static void main(String[] args)
+ {
+    manas.add(8);
+  }
+  }

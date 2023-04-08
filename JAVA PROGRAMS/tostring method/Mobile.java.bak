@@ -1,0 +1,21 @@
+class Mobile 
+{
+	String mobile_modelname;
+	String mobile_colour;
+	int mobile_cost;
+	Mobile(String mobile_modelname,String mobile_colour,int mobile_cost)
+	{
+		this.mobile_modelname=mobile_modelname;
+		this.mobile_colour=mobile_colour;
+		this.mobile_cost=mobile_cost;
+	}
+	public String toString()
+	{
+		return "Mobile name is "+this.mobile_modelname+"Mobile colour is "+this.mobile_colour+"and the cost of mobile is "+this.mobile_cost;
+	}
+	public static void main(String[] args) 
+	{
+		Mobile M1=new Mobile("S21 FE ","Violet",35000);
+		System.out.println(M1.toString());
+	}
+}

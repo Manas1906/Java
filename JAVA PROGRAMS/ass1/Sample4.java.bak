@@ -1,0 +1,13 @@
+class Sample4
+{
+
+public static void main(String[] args)
+{
+final int a;
+
+char c='A';
+
+a=10;
+System.out.println(a);
+}
+}

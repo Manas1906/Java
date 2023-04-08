@@ -1,0 +1,16 @@
+class Circle
+{
+static void area()
+{
+int r=5;
+final double pi=3.142;
+double res=pi*r*r;
+System.out.println("The area of circle is "+res);
+return;}
+public static void main(String[] args)
+{
+System.out.println("*********Main Starts********");
+area();
+System.out.println("*********Main Ends********");
+}
+}
